@@ -1,0 +1,42 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+:root {
+
+    --white: #fff;
+    --gray-50: #f7f8fa;
+    --gray-100: #e6e6eb;
+    --gray-200: #afb2b1;
+    --gray-500: #494d4b;
+    --black-git: #161b22;
+    --blue-dark:#2d8cf0;
+    --blue-500:#0085FF;
+    --blue-300:#85C3FF;
+    
+    --black-light:#223333;
+  }
+@media(max-width: 1080px){
+    html{
+      font-size: 93.75%;
+    }
+  }
+  @media(max-width:87.5%){
+   html{ font-size: 87.5%;}
+  }
+ 
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  button{
+    cursor:pointer;
+  }
+  body{
+    background-color: var(--black-git);
+  }

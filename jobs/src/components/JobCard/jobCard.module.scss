@@ -1,0 +1,21 @@
+.jobCard{
+    background-color: var(--white);
+    width: 80vw;
+    margin: 2rem auto;
+    height: 9rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    &:hover{
+        font-size: 20px;
+        transition: 0.2s;
+    }
+    img{
+        
+        max-width: 9rem;
+        max-height: 9rem;
+        width: auto;
+        height: auto;
+    }
+}

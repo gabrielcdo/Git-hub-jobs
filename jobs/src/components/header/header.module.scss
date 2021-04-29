@@ -1,0 +1,47 @@
+.header {
+  background-color:var(--white);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: var(--black-light);
+  
+
+  .headerContent {
+    padding: 1rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        font-size: 1.2rem;
+        position: relative;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 0.3rem 0;
+
+        a {
+          text-decoration: none;
+          color: var(--black-light);
+        }
+      }
+      li::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 0.2rem;
+        background-color: var(--blue-300);
+        left: 0;
+        width: 0%;
+      }
+      li:hover::before {
+        width: 100%;
+        transition: width 0.2s;
+      }
+    }
+  }
+}
